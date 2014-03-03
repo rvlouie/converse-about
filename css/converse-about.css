@@ -1,3 +1,37 @@
 body {
-	
+	color: white;
+	overflow: none;
+}
+
+h1 {
+	margin: 50px 100px;
+	text-shadow: 2px 2px #000000;
+}
+
+p {
+	font-size: 24px;
+	margin: 50px 50px 50px 100px;
+	text-shadow: 2px 2px #000000;
+}
+
+ul, ol {
+	margin: 50px 50px 50px 100px;
+}
+
+li {
+	font-size: 24px;
+	text-shadow: 2px 2px #000000;
+	margin-top: 20px;
+}
+
+#homepage {
+	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
+}
+
+.list-margin {
+	margin-top: 50px;
 }
