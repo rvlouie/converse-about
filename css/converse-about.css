@@ -25,7 +25,7 @@ li {
 }
 
 iframe {
-	margin-left: 100px;
+	width: 100%;
 }
 
 #homepage {
@@ -38,4 +38,8 @@ iframe {
 
 .list-margin {
 	margin-top: 50px;
+}
+
+#form {
+	margin: 0 100px;
 }
