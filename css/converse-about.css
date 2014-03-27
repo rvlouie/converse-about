@@ -47,6 +47,7 @@ iframe {
 
 
 #welcome {
+	position: relative;
 	background-color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -73,9 +74,7 @@ iframe {
 }
 
 .arrow {
-	margin: auto;
-	width: 100px;
-	height: 100px;
+
 }
 
 .arrow a {
@@ -84,7 +83,6 @@ iframe {
 	bottom: 0;
 	right: 0;
 	background-color: rgb(88, 88, 88);
-	width: 231px;
 	height: 57px;
 	text-decoration: none;
 	color: white;
@@ -92,23 +90,13 @@ iframe {
 	padding: 13px;
 }
 
+
 #nav {
 	position: fixed;
 	top: 0;
-	right: 20px;
+	left: 0;
 }
 
-#about {
-	background-image: url(../assets/rubber_tracks_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	overflow: auto;
-}
-
-#about h1 {
-	margin-top: 65px;
-}
 
 .nav-list ul {
 	list-style: none;
@@ -132,16 +120,26 @@ iframe {
 	text-shadow: none;
 }
 
-#homepage {
-	background-image: url(../assets/rubber_tracks_bg.jpg);
+#about {
+	position: relative;
+	background-image: url(../assets/about.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	overflow: auto;
 }
 
+#about h1 {
+	margin-top: 65px;
+}
+
+#homepage {
+	overflow: auto;
+}
+
 #need-to-know {
-	background-image: url(../assets/rubber_tracks_bg.jpg);
+	position: relative;
+	background-image: url(../assets/need_to_know.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -153,7 +151,7 @@ iframe {
 }
 
 #terms {
-	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-image: url(../assets/terms.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -161,11 +159,6 @@ iframe {
 }
 
 #form {
-	background-image: url(../assets/rubber_tracks_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	overflow: auto;
 	margin: 0 50px;
 }
 
