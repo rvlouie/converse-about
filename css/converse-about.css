@@ -8,6 +8,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 
 body {
 	color: white;
@@ -21,7 +26,7 @@ h1 {
 }
 
 p {
-	font-size: 24px;
+	font-size: 20px;
 	margin: 50px;
 	text-shadow: 2px 2px #000000;
 }
@@ -31,7 +36,7 @@ ul, ol {
 }
 
 li {
-	font-size: 24px;
+	font-size: 20px;
 	text-shadow: 2px 2px #000000;
 	margin-top: 20px;
 }
@@ -40,10 +45,65 @@ iframe {
 	width: 100%;
 }
 
+
+#welcome {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
+}
+
+.rt-logo {
+	background-image: url(../assets/RT_logo_vector.png);
+	background-repeat: no-repeat;
+	height: 297px;
+	width: 500px;
+	margin: 150px auto;
+}
+
+.intro-paragraph {
+	margin: auto;
+}
+
+.intro-paragraph p {
+	font-size: 24px;
+	color: black;
+	text-shadow: none;
+}
+
+.arrow {
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+.arrow a {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: rgb(88, 88, 88);
+	width: 231px;
+	height: 57px;
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+	padding: 13px;
+}
+
 #nav {
 	position: fixed;
 	top: 0;
 	right: 20px;
+}
+
+#about {
+	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
 }
 
 #about h1 {
@@ -80,11 +140,32 @@ iframe {
 	overflow: auto;
 }
 
+#need-to-know {
+	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
+}
+
 .list-margin {
 	margin-top: 50px;
 }
 
+#terms {
+	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
 #form {
+	background-image: url(../assets/rubber_tracks_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: auto;
 	margin: 0 50px;
 }
 
